@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.ItemContainer {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: space-between;
+  margin: 15px;
+}
+.title {
+  width: 300px;
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #000000;
+  font-weight: 600;
+}
+.btnEl {
+  text-align: center;
+  color: #ff0b37;
+  background-color: #ffffff;
+  width: 100px;
+  height: 40px;
+  border-color: #ff8542;
+  border-radius: 10px;
+  border-style: solid;
+  cursor: pointer;
+}
